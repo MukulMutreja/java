@@ -15,7 +15,8 @@ public class binomial {
         int n = sc.nextInt();
         System.out.println("Enter the value of r : ");
         int r = sc.nextInt();
-        int factorial_num =  factorial(n) /( factorial(r) * factorial(n-r));
-        System.out.println("Factorial of the number : "+factorial_num);
+        int binomial_coefficient =  factorial(n) /( factorial(r) * factorial(n-r));
+        System.out.println("Binomial Coefficient of the number : "+binomial_coefficient);
     }
+
 }
